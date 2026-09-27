@@ -5,7 +5,7 @@ const typescriptFiles = ['**/*.ts', '**/*.tsx'];
 
 export default [
   {
-    ignores: ['dist/**', 'coverage/**', 'node_modules/**'],
+    ignores: ['dist/**', 'coverage/**', 'node_modules/**', 'cypress/**'],
   },
   {
     ...eslint.configs.recommended,

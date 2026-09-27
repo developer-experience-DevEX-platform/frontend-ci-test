@@ -8,6 +8,7 @@ Callers pin `ci-cd-templates` `@feat/frontend-ci-cd` until that work is tagged. 
 npm ci
 npm run verify
 npm run build
+npm run test:e2e
 ```
 
-First Release stays green without `STATIC_SITE_BUCKET` or `TECHDOCS_S3_BUCKET`. Open a pull request to run SonarQube and the production build.
+First Release stays green without `STATIC_SITE_BUCKET` or `TECHDOCS_S3_BUCKET`. Open a pull request to run SonarQube, the production build, and the team-owned Cypress job.
