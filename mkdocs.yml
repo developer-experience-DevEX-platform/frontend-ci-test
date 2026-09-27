@@ -1,0 +1,5 @@
+site_name: frontend-ci-test
+site_description: Proof repo for frontend CI and static-site release
+
+plugins:
+  - techdocs-core
