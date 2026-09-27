@@ -3,6 +3,6 @@ import { greet } from './greet';
 
 describe('greet', () => {
   it('returns a greeting', () => {
-    expect(greet('frontend-ci-test')).toBe('Hello, frontend-ci-test');
+    expect(greet('frontend-ci-test')).toBe('Hello from frontend-ci-test');
   });
 });

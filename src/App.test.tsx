@@ -6,7 +6,7 @@ describe('App', () => {
   it('renders the greeting', () => {
     render(<App />);
     expect(screen.getByRole('heading').textContent).toBe(
-      'Hello, frontend-ci-test',
+      'Hello from frontend-ci-test',
     );
   });
 });
